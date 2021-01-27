@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="da">
+<head>
+    <META charset="utf-8" />
+    <META name="keywords" content="" />
+    <META name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="default.css" media="screen"/>
+    <title>Yin Yoga</title>
+</head>
+<body>
+    <nav class="main-nav">
+      <ul>
+        <li>
+          <a href="index.html"><img src="logo.png" alt="logo"></a>
+        </li>
+		<li>
+          <a href="index.html">Yin Yoga</a>
+        </li>
+      </ul>
+    </nav>
+     <!-- Slideshow container -->
+		 <section id="slideshow-container">
+			   <!-- Da der ikke er nogen h2-h6 vil det give fejl i validaten af vores billede slider -->
+		  <section class="mySlides fade">
+			<img src="6.jpg" alt="billede1">
+		  </section>
+		  <section class="mySlides fade">
+			<img src="7.jpg" alt="billede2">
+		  </section>
+		  <section class="mySlides fade">
+			<img src="4.jpg" alt="billede3">
+		  </section>
+		  <section class="mySlides fade">
+			<img src="5.jpg" alt="billede4">
+		  </section>
+		  <section class="mySlides fade">
+			<img src="1.jpg" alt="billede5">
+		  </section>
+		  <section class="mySlides fade">
+			<img src="2.jpg" alt="billede6">
+		  </section>
+		  <section class="mySlides fade">
+			<img src="3.jpg" alt="billede7">
+		  </section>
+
+		    <!-- Next and previous buttons -->
+		    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		  </section>
+  <script>
+	  var slideIndex = 1;
+	  showSlides(slideIndex);
+
+// Next/previous controls
+	  function plusSlides(n) {
+  	  showSlides(slideIndex += n);
+	  }
+
+// Thumbnail image controls
+	  function currentSlide(n) {
+      showSlides(slideIndex = n);
+	  }
+
+	  function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  if (n > slides.length) {slideIndex = 1} 
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+		  slides[i].style.display = "none"; 
+	  }
+	  for (i = 0; i < dots.length; i++) {
+		  dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block"; 
+	  dots[slideIndex-1].className += " active";
+	  }
+	</script>
+    <!-- Boxes Section -->
+    <section id="hvorfor">
+      <h1>Hvorfor Yin Yoga</h1>
+	  <p>Yin Yoga hjælper dig med at finde en helhed i din dagligdag.<br>
+	  Yin Yoga er en effektiv metode mod stress, traumer og depression. Denne form for yoga fokuserer på kroppens sind og velvære hvorfor der opstår en naturlig ro i kroppen.<br>
+	  Har du brug for at få struktur i hverdagen igen, hjælper Yin Yoga dig med at fokuserer i en ellers uoverskuelig periode.</p>
+    </section>
+	<section id="coaches">
+	  <h1>Coaches</h1>
+	</section>
+	<section class="boxes">
+		   <!-- Da der er en section i en section vil den skrive at der mangler en h2-h3 i section class="boxes" -->
+	  <section class="box">
+		<h3>Sarah V.</h3>
+		<img src="indstruktor1.jpg" alt="indstruktør1">
+		<p>Sarah er den yngste instruktør i studiet. Hun har dyrket yoga siden hun var 5, og blev certificeret yogalærer i 2014.
+		Hun er i gang med at studere fysioterapi, hvilket er et meget hårdt studie. Yin yoga hjælper hende med at få et større overskud i hverdagen, og hun praktiserer det også ude for studiet.
+		Sarah har et specielt fokus på den indre ro. Hendes passion ligger i sindet.</p>
+	    <h4>“Yin Yoga giver ro i både krop og sindet. Og sindet skal vi passe godt på.”</h4><br><br>
+	  </section>
+	  <section class="box">
+		<h3>Rita H.</h3>
+		<img src="indstruktor2.jpg" alt="indstruktør2">
+		<p>Rita er født i 1970 og har 4 børn. Hun startede sin yogapraksis i forbindelse med sin graviditet.
+		Hun har praktiseret astangayoga siden 2005, og blev certificeret yogalærer i 2008. Hun har efterfølgende overbygget uddannelsen med Yin Yoga.
+		Rita tager til mange workshops for at kunde praktisere med andre dygtige yoga lærer.
+		Hun har blandt andet praktiseret sammen med Sarah Powers, Petri Räisänen, Laruga Glaser og Gretchen Suarez. Rita har et specielt fokus på nærvær og udvikling i hendes undervisning. Hendes passion ligger i kroppen og åndedrættens muligheder.</p>
+		<h4>“Yoga er først og fremmest en vejrtræknings praksis, og som vi så krydrer med forskellige stillinger.”</h4>
+	  </section>
+	  <section class="box">
+		<h3>Marianne J.</h3>
+		<img src="indstruktor3.jpg" alt="indstruktør3">
+		<p>Marianne blev født i 1965, er gift og har to voksne børn. Hun har praktiseret og studeret Astanga Vinyasa Yoga siden 2008.
+		Hun er certificeret zoneterapeut og Reiki Healer. Hendes undervisningsform er tillidsvækkende, inspirerende og disciplineret.
+		Marianne har samlet meget erfaring igennem utallige kurser og workshops hun har deltaget i.
+		Med blandt andet: Kino MacGregor, Gretchen Suarez og Peter Sanson. Hendes passion ligger i det autentiske og i transformationen fra adskillelsen til samhørighed.</p>
+		<h4>“Yin Yoga er for mig en personlig udvikling. Det giver mig en erkendelse af hvem jeg er og følelsen af at komme helt hjem til mig selv.”</h4>
+	  </section>
+	</section>
+
+	<section id="quotes">
+		<h2>"Jeg har fået mere ro i hverdagen og mere overskud"</h2>
+		<h3>- Lone Bergmann</h3><br>
+		<h2>"Jeg ledte efter en måde at komme videre fra en tragisk oplevelse, og Yin Yoga hjalp mig rigtig meget"</h2>
+		<h3>- Charlotte Østergård</h3>
+	</section>
+
+	<section id="tilmeld">
+		<a href="index.html">Tilmeld dig her</a>
+	</section>
+    <!-- Footer -->
+    <footer>
+      <section id="open">
+	  <h1>Åbningstider</h1>
+	  <p>Mandag-Torsdag 9-18</p>
+	  <p>Fredag 9-16</p>
+	  <p>Lørdag 9-14</p>
+	  <p>Søndag lukket</p>
+	  <p>Helligdage lukket</p>
+	  </section>
+	  <section id="kontakt">
+	  <h1>Kontakt</h1>
+	  <p>Tlf nr: 20 40 60 80</p>
+	  <p>Email: yinyoga@hopla.dk</p>
+	  <p>Adresse: Svingvej 4, 4600 Køge</p>
+	  </section>
+    </footer>
+</body>
+</html>

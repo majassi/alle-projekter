@@ -1,0 +1,138 @@
+/* background pictures */
+  .baggrundsbillede1{
+    background-image: url(baggrundsbillede_1.jpg);
+    height: 400px;
+    width: 100%;
+    display: grid;
+    place-items: left;
+    font-size: 25px;
+    color: white;
+    background-size: cover;
+    background-position: top:
+  }
+
+.baggrundsbillede2{
+  background-image: url(baggrundsbillede_2.jpg);
+  height: 400px;
+  width: 100%;
+  display: grid;
+  place-items: left;
+  font-size: 25px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+
+  /* Logo */
+  .mainlogo{
+    height: 120px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+
+/* get started button */
+.button{
+  background-color: #ffffff;
+  opacity: .4;
+  margin-top: 20px;
+  font-size: 26.5px;
+}
+ /* cover picture text */
+  p{
+    margin-left: 100px;
+    margin-bottom: 150px;
+    font-size: 40px;
+  }
+ 
+   /* paragraph */
+p1{
+  font-size: 80px;
+  margin-left: 100px;
+}
+
+p4{
+  font-size: 50px;
+  text-align: center;
+}
+
+/* css grid elements */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+ /* download app pictures */
+.download1{
+height: 25px;
+}
+.download2{
+  height: 25px;
+}
+
+ /* pictures of the app */
+.app1{
+  height: 550px;
+  width: 300px;
+  margin-left: 400px;
+}
+
+.app2{
+  height: 550px;
+  width: 320px;
+  margin-left: 10px;
+}
+/* footer menu */
+.menu{
+  font-size: 20px;
+  display: grid;
+}
+
+/* footer */
+.footer{
+  background-image: url(footer.jpg);
+  height: 250px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  font-size: 25px;
+  color: white;
+  background-size: cover;
+  background-position: bottom;
+}
+
+@media only screen and (max-width: 768px) {
+.app1{
+height: 400px;
+width: 300px;
+margin-left: 60px;
+
+
+}
+.app2{
+height: 400px;
+width: 300px;
+}
+}
+
+@media only screen and (max-width: 375px) {
+  .app1{
+    height: 500px;
+    width: 300px;
+    margin-left: 40px;
+    }
+    .app2{
+    height: 500px;
+    width: 300px;
+    margin-left: 40px;
+    }
+    .baggrundsbillede1{
+      height: 450px;
+    }
+}

@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="stylish.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Aquamize</title>
+</head>
+
+<body>
+<!---------------NAV BAR--------------->
+<nav>
+<div id="leftw" class="logo"><a href="index.html"><img src="logo1.png" alt="logo"></a></div>
+<button class="tablink" onclick="openPage('Home', this, '#5c91a9')" id="defaultOpen">Forside</button>
+<button class="tablink" onclick="openPage('customize', this, '#5c91a9')">Laboratorie</button>
+<button class="tablink" onclick="openPage('Contact', this, '#5c91a9')">Betaling</button>
+<button class="tablink" onclick="openPage('About', this, '#5c91a9')">Kontakt</button>
+</nav>
+<!---------------NAV BAR SLUT--------------->
+
+
+
+
+<!---------------FORSIDE--------------->
+<div id="Home" class="tabcontent">
+	<div id="slideshow">
+  		<div class="slide-wrapper">
+			<div class="slide"></div>
+			<div class="slide"></div>
+			<div class="slide"></div>
+			<div class="slide"></div>
+  		</div>
+	</div>
+	<h2>Nyheder</h2>
+	<section class="newscards">
+	<article class="card">
+  		<img class="cardimgborder" src="news1.png" alt="Denim Jeans" style="width:100%">
+  		<h3>Nyt Flaske design</h3>
+  		<p>Naturen binder vores verden sammen og giver liv til alt på jorden. Prøv vores nye design og sæt liv i din hverdag.</p>
+  		<p><button class="tablink" onclick="openPage('Contact', this, '#5c91a9')">Se mere</button></p>
+	</article>
+	<article class="card">
+  		<img class="cardimgborder" src="news2.png" alt="Denim Jeans" style="width:100%">
+  		<h3>Lav din egen flaske</h3>
+  		<p>Prøv vores costumize side, og gør dit vand dit eget.</p>
+  		<p><button class="tablink" onclick="openPage('customize', this, '#5c91a9')">Se mere</button></p>
+	</article>
+	<article class="card">
+  		<img class="cardimgborder" src="aquamize.png" alt="Denim Jeans" style="width:100%">
+  		<h3>Mød vores flasker</h3>
+  		<p>Vores dygtige designere er lige kommet op med fire nye super seje templates som du kan bruge idag!</p>
+  		<p><button class="tablink" onclick="openPage('customize', this, '#5c91a9')">Se mere</button></p>
+	</article>
+	</section>
+</div>
+<!---------------FORSIDE SLUT--------------->
+
+
+
+
+
+<!---------------LAB SIDE--------------->
+<div id="customize" class="tabcontent">
+  	<h2>Customize</h2>
+	<div class="cosCards">
+		<div class="cosCon">
+			<div class="slidercard">
+				<div class="slidecontainer">
+					<h4>Sur</h4>
+					<input type="range" min="1" max="100" value="50" class="slider">
+					<p class="textleft">Lidt sur</p>
+					<p class="textright">Meget sur</p>
+				</div>
+			</div>
+			<div class="slidercard">
+				<div class="slidecontainer">
+					<h4>Sød</h4>
+					<input type="range" min="1" max="100" value="50" class="slider">
+					<p class="textleft">Lidt sød</p>
+					<p class="textright">Meget sød</p>
+				</div>
+			</div>
+		</div>
+		<div class="cosCon">
+			<div class="slidercard">
+				<div class="slidecontainer">
+					<h4>Salt</h4>
+					<input type="range" min="1" max="100" value="50" class="slider">
+					<p class="textleft">Lidt salt</p>
+					<p class="textright">Meget salt</p>
+				</div>
+			</div>
+			<div class="slidercard">
+				<div class="slidecontainer">
+					<h4>Bitter</h4>
+					<input type="range" min="1" max="100" value="50" class="slider">
+					<p class="textleft">Lidt bitter</p>
+					<p class="textright">Meget bitter</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="cosCon2">
+			<article class="productcard">
+  				<h3>Din Flaske</h3>
+				<img class="cardimgborder" src="product1.png" alt="Denim Jeans" style="width:100%">
+  				
+			</article>
+		</div>
+	</div>
+</div>
+<!---------------LAB SIDE--------------->
+
+
+
+
+
+<!---------------BETALINGS SIDE--------------->
+<div id="Contact" class="tabcontent">
+	 <div class="loginbox">
+		<form>
+            <p>Navn</p>
+            <input type="text" name="#" placeholder="Fornavn">
+            <input type="text" name="#" placeholder="Efternavn">
+			<p>Fødselsdag</p>
+            <input type="text" name="#" placeholder="DD - MM - YYYY">
+			<p>E-mail</p>
+            <input type="text" name="#" placeholder="eksempel@hotmail.dk">
+			<p>Adresse</p>
+            <input type="text" name="#" placeholder="">
+			<p>Postnr./By</p>
+			<input type="text" name="#" placeholder="">
+			<p>Mobil/Telefon</p>
+			<input type="text" name="#" placeholder="+45 12 34 56 78">
+			<p>Rabatkode</p>
+            <input type="text" name="#" placeholder="">
+            <input type="submit" name="#" value="Bestil">
+        </form>
+	</div>
+</div> 
+<!---------------BETALINGS SIDE SLUT--------------->
+
+
+	
+	
+
+
+<!---------------OM OS SIDE--------------->
+<div id="About" class="tabcontent">
+		<section>
+			<article id="del1">
+				<h3>Lidt om os:</h3>
+				<p>På vores hjemmeside kan eventplanlægger være med til at designe deres egne vandflasker.</p>
+				<p>Det er dog ikke kun udseendet af flasken der kan ændres på, det er også indholdet. Vælg om vandet skal være med eller uden brus og vær med til at ændre smagen i flasken.</p><p>Hos Aquamize går vi ind for, at vores kunder selv kan være med til at gøre deres flasker til noget helt specielt.</p>
+				<p>Aquamize er forfriskende, naturligt vand, som er tappet direkte fra vores underjordiske kilde, vandet er let mineralholdigt med et lav indhold af salt og 0 kalorier.</p>
+			</article>
+		
+			<article id="del2">
+			<br>
+			<br>
+  	  			<h3>Kontakt os:</h3>
+				<p>Vi er her for at hjælpe med diverse spørgsmål og sidder klar ved email og telefonen. Vi svarer så hurtigt vi kan og gerne indenfor 48 timer. </p>
+	  			<p>Email: info@aquamize.dk</p>
+	  			<p>Telefon: +45 85 97 12 03</p>
+				<p>Adresse: Rådhuspladsen 10, 1550 København</p>
+				<img src="Danmarkskort.jpg" width="360" height="370" alt="Danmarkskort"/>
+			</article>
+		</section>
+</div>
+<!---------------OM OS SIDE SLUT--------------->
+</body>
+	
+	
+
+<script>
+/*-------------SCRIPT TIL NAV BAR-----------------*/
+function openPage(pageName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(pageName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+	}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+/*-------------SCRIPT TIL NAV BAR SLUT-----------------*/
+
+
+	
+/*-------------SCRIPT TIL SLIDERS-----------------*/
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+/*-------------SCRIPT TIL SLIDERS SLUT-----------------*/
+</script>
+
+<footer>
+	<section>
+		<h4>Email&#58;</h4><p>sejemail@hotmail.com</p>
+		<h4>Tlf&#58;</h4><p>+45 12 34 56 78</p>
+		<h4>Adresse&#58;</h4><p>Sejvej 34 - 3500 Værløse</p>
+		<div class="socials">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-google"></a>
+		</div>
+	</section>
+</footer>
+</html>

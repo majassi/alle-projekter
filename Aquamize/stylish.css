@@ -1,0 +1,631 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Maven+Pro|Nanum+Gothic');
+
+/*NAVIGATIONBAR*/
+/*
+nav {
+	width: 100%;
+	background-color: none;
+	overflow: auto;
+}
+
+li {
+	float: right;
+}
+*/
+.logo img {
+	position: absolute;
+	margin-top: 95px;
+	margin-left: 40px;
+	width: auto;
+	height: 50px;
+	padding: 0px;
+}
+
+/*
+nav a {
+	width: 100px;
+	display: block;
+	text-decoration: none;
+	font-family: 'arial';
+	color: #f2f2f2;
+	text-align: center;
+}
+
+nav a:hover {
+	background-color: #E5E500;
+	transition: 0.2s;
+	color: #333;
+	text-transform: 0.2s;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #e5e500;
+	color: #333;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    text-align: left !important;
+	width: 200px;
+}
+
+.dropdown-content a:hover {
+	background-color: #f9f9f9;
+	text-decoration-line: underline;
+	text-decoration-color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	width: 300px;
+}
+
+ul {
+	list-style: none;
+	font-family: 'comfortaa';
+	color: black;
+	font-size:1.3em;
+	text-align: left;
+	padding: 0;
+	margin: 0 0 0 150px;
+}
+
+/*DECORATION*/
+/*
+.backgroundimg {
+	height: auto;
+	width: 1903px;
+	opacity: 0.5;
+}
+
+body{
+	background-color: #000;
+	font-size:100%;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', 'Verdana', 'sans-serif';
+	margin: 0;
+	padding: 0;
+}
+*/
+/* ------------- GRID_SYS -------------*/
+
+body, html {
+    height: auto;
+    margin: 0;
+    font-family: 'nanum gothic';
+	background-color: #f9f9f9;
+}
+
+.colorwheelsize {
+	max-width: 150px;
+	height: auto;
+	margin-left: 55px;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: rgba(249,249,249,0.80);
+    color: #333;
+	font-family: 'nanum gothic';
+	font-weight: 800;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+	text-transform: uppercase;
+}
+
+.tablink:hover {
+    background-color: #999;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: #f9f9f9;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+
+
+h2 {
+	font-family: 'nanum gothic';
+	text-align: center;
+	margin-top: 50px;
+	color: #333;
+}
+
+h3 {
+	font-family: 'nanum gothic';
+	text-align: center;
+	color: #1f1f1f;
+	font-size: 26px;
+}
+
+h4 {
+	font-family: 'nanum gothic';
+	text-align: left;
+	color: #1f1f1f;
+}
+
+p {
+	color: #333;
+}
+
+h2:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 300px;
+    background-color: #333;
+    opacity: 0.4;
+    margin-left: auto;
+    margin-right: auto;
+	border-radius: 3px;
+}
+
+h3:after {
+	/*
+	content: "";
+    display: block;
+    height: 2px;
+    width: 70px;
+    border-radius: 3px;
+	background-color: #1f1f1f;
+    opacity: 0.4;
+	*/
+	margin-left: auto;
+    margin-right: auto;
+}
+/*
+h4:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 70px;
+    background-color: #1f1f1f;
+    opacity: 0.4;
+	border-radius: 3px;
+}
+*/
+p {
+	font-family: 'nanum gothic';
+	margin-left: 5px;
+	margin-right: 5px;
+	
+}
+#Home {
+	background-color: #f9f9f9;
+	height: 100%;
+}
+
+#customize {
+	background-color: #f9f9f9;
+	width: 100%;
+	height: auto;
+}
+
+#Contact {
+	background-color: #f9f9f9;
+	height: 100%;
+}
+
+#About {
+	background-color: #f9f9f9;
+	height: 100%;
+}
+
+#More {
+	background-color: #f9f9f9;
+	height: 100%;
+}
+
+.textright {
+	float: right;
+}
+
+.textleft {
+	text-align: left;
+}
+
+.slidercard p {
+	display: inline-block;
+	font-size: 15px;
+}
+
+.slidercard {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  	max-width: 350px;
+  	margin: 20px;	
+  	text-align: left;
+  	font-family: 'nanum gothic';
+	background-color: #f9f9f9;
+	color: #333;
+	border-radius: 5px 5px 5px 5px;
+	justify-content: space-between;	
+	padding: 3px 20px;
+}
+
+.productimg {
+	border-radius: 5px 5px 0px 0px;
+	width: 350px;
+	height: auto;
+}
+
+.productcard {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  	max-width: 350px;
+  	margin: 0px auto;	
+  	text-align: left;
+  	font-family: 'nanum gothic';
+	background-color: #f9f9f9;
+	color: #333;
+	border-radius: 5px 5px 5px 5px;
+	justify-content: space-between;	
+	padding: 2px;
+}
+
+.cosCards {
+	width: 100%;
+	display: flex;
+}
+
+.cosCon2 {
+	width: 50%;
+	right: 0;
+	display: inline-block;
+	max-height: 500px;
+}
+
+.cosCon {
+	width: 25%;
+	left: 0;
+	display: inline-block;
+	max-height: 500px;
+}
+
+.slidecontainer {
+    width: 80%;
+	margin: 0 auto;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: #f9f9f9;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+	margin: 5px auto 2px auto;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.slidertagR {
+	text-align: right;
+}
+
+.slidertagL {
+	float: left;
+}
+
+footer {
+    background-color: #5C91A9;
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: #444;
+	padding: 10px 0px 10px 0px;
+	display: flex;
+}
+
+footer section {
+	margin: 0 auto;
+}
+
+footer p {
+	display: inline-block;
+	font-family: 'nanum gothic';
+	margin-right: 100px;
+	text-align: center;
+}
+
+footer h4 {
+	font-family: 'nanum gothic';
+	color: #333;
+	display: inline-block;
+}
+
+footer h4:after {
+	display: none;
+}
+
+.socials {
+	justify-content: flex-end;
+}
+
+.fa {
+  	padding: 20px;
+  	font-size: 30px;
+  	width: 7px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin: 5px 2px;
+  	border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  	background: #3B5998;
+  	color: white;
+}
+
+.fa-twitter {
+  	background: #55ACEE;
+  	color: white;
+}
+
+.fa-google {
+  	background: #dd4b39;
+  	color: white;
+}
+
+#slideshow {
+  	overflow: hidden;
+  	height: 413px;
+  	width: 1000px;
+  	margin: auto;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	border-radius: 3px;
+}
+
+.slide-wrapper {
+  	width: 3000px;
+  	-webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  	float: left;
+  	height: 413px;
+  	width: 1000px;
+}
+
+.slide:nth-child(1) {
+  	background-image: url(frontbillede1.png);
+}
+
+.slide:nth-child(2) {
+  	background-image: url(frontbillede2.png);
+}
+
+.slide:nth-child(3) {
+  	background-image: url(frontbillede3.png);
+}
+
+.slide:nth-child(4) {
+  	background-image: url(ocean.jpeg);
+}
+
+@-webkit-keyframes slide {
+  	20% {margin-left: 0px;}
+  	30% {margin-left: -1000px;}
+  	50% {margin-left: -1000px;}
+  	60% {margin-left: -2000px;}
+  	70% {margin-left: -2000px;}
+}
+
+.newscards {
+	display: flex;
+}
+
+.cardimgborder {
+	border-radius: 5px 5px 0px 0px;
+}
+
+.card {
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  	max-width: 300px;
+  	margin: auto;
+  	text-align: left;
+  	font-family: 'nanum gothic';
+	background-color: #f9f9f9;
+	color: #333;
+	border-radius: 5px 5px 5px 5px;
+	display: inline-block;
+	height: 420px;
+}
+
+.price {
+  	font-size: 22px;
+	text-align: center;
+}
+
+.card button {
+  	border: none;
+  	outline: 0;
+  	padding: 12px;
+  	color: #333;
+  	background-color: #f9f9f9;
+  	text-align: center;
+  	cursor: pointer;
+  	width: 100%;
+  	font-size: 18px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+.card button:hover {
+  	opacity: 0.7;
+}
+
+
+
+/*--- Kontakt side start ---*/
+#Contact {
+	background-color: #f9f9f9;
+	height: 100%;
+	}
+
+/*--- Lidt om os start ---*/
+#del1{
+	width:30%;
+	/*margin:auto;*/
+	margin: auto;
+	margin-top:0%;
+	margin-left:12%;
+	margin-right:5%;
+	float:left;
+	line-height: 1.5em;
+	font-size: 20px;
+}
+
+/*--- Lidt om os slut ---*/
+
+/*--- Kontakt info start ---*/
+#del2{
+	width: 30%;
+	overflow:hidden;
+	margin:auto;
+	height:auto;
+	margin-left:10%;
+	margin-top:-3.75%;
+	margin-right:10%;
+	float:right;
+	line-height: 1.5em;
+	font-size: 20px;
+}
+
+/*--- Billede af kort over Danmark ---*/
+#img{
+	align-content: Center;
+}
+
+/*---Kontakt info slut ---*/
+
+/*--- Kontakt side slut ---*/
+
+
+label {
+	color: #333;
+}
+
+
+
+
+
+
+
+
+.loginbox{
+		width: 600px;
+		height: auto;
+		background: #FFF;
+		color: #333;
+		box-sizing: border-box;
+		padding: 30px 30px;
+		margin: 0px auto 0px auto;
+		box-shadow: 5px 5px 40px 0 rgba(0, 0, 0, 0.1);
+	}
+
+	.loginbox p{
+		margin: 0;
+		padding: 0;
+		font-weight: bold;
+	}
+
+	.loginbox input{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.loginbox input[type="text"] {
+		border: none;
+		border-bottom: 1px solid #555;
+		background: transparent;
+		outline: none;
+		height: 40px;
+		color: #333;
+		font-size: 16px;
+	}
+	
+	.loginbox input[type="submit"]{
+		outline: none;
+		height: 40px;
+		background: #5c91a9;
+		color: #333;
+		font-size: 18px;
+		border-radius: 20px;
+		border: 1px solid #333;
+		width: 150px;
+		margin: 20px 0px 0px 0px;
+	}
+	.loginbox input[type="submit"]:hover
+	{
+		cursor: pointer;
+		background: #6DB0CF;
+		color: #000;
+	}
+	.loginbox a{
+		text-decoration: none;
+		font-size: 12px;
+		line-height: 20px;
+		color: darkgrey;
+	}
+
+	.loginbox a:hover
+	{
+		color: #ffc107;
+	}
